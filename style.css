@@ -60,5 +60,5 @@ li:hover {
   color: #fcfcfb;
 }
 .active {
-  left: 0;
+  left: 0 !important;
 }
