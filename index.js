@@ -1,9 +1,10 @@
-// Créer un événement au click sur le hamburger menu pour sortir la sidebar, ranger la sidebar si on reclick dessus
 
-// Ranger la sidebar si on click sur le contenu principal
+const sidebar = document.getElementById('side-bar');
+const toggleBtn = document.querySelector('.toggle-btn');
 
-// BONUS
-// Créer en css l'hamburger menu qui se transforme en croix
+toggleBtn.addEventListener('click', () => {
+    // sidebar.style.left = 0;
+    sidebar.classList.toggle('active');
+} )
 
-// Aide
-// Priorités en CSS : id > classe > baliseHtml
+
