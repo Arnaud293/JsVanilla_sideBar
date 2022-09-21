@@ -62,3 +62,10 @@ li:hover {
 .active {
   left: 0 !important;
 }
+
+/* Or #side-bar.active */
+
+/* Apply this if .active is called */
+.active ~ .content{
+  opacity: 0.5;
+}
